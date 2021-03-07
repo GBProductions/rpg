@@ -1,12 +1,18 @@
 export default class Character {
-  constructor (name, characterClass, hitPoints, strength, tough, mind) {
+  constructor (name, characterClass, lifePoints, strength, tough, mind) {
     this.name = name;
     this.characterClass = characterClass;
-    this.hitPoints = hitPoints;
+    this.lifePoints = lifePoints;
     this.strength = strength;
     this.tough = tough;
     this.mind = mind;
     this.level = 1;
   }
-  
+}
+Character.prototype.expAdder = function() {
+  this.tough += 1;
+}
+
+Character.prototype.levelUp = function() {
+    
 }
