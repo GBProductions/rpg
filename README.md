@@ -8,6 +8,11 @@
 
 _RPGS_
 
+## Specs
+
+ 
+
+
 ## Setup/Installation Requirements
 
 * _Open terminal and navigate to 'Desktop'._
@@ -37,3 +42,7 @@ _For support, contact Garrett Brown <garrettpaulbrown@gmail.com>_
 *Available under MIT Licensing*
 
 Copyright (c) 2021 **_Garrett Brown_** **_Cat Denton_** **_Theron Packus_**
+
+Co-authored-by: Cat Denton <willwdenton@gmail.com>
+Co-authored-by: Theron Packus <tlpackus@gmail.com>
+Co-authored-by: Garrett Brown <garrettpaulbrown@gmail.com>
