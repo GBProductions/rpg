@@ -14,5 +14,9 @@ Character.prototype.expAdder = function() {
 }
 
 Character.prototype.levelUp = function() {
-    
+    this.lifePoints += 5;
+    this.strength += 5;
+    this.tough += 5;
+    this.mind += 5;
+    this.level += 1;
 }

@@ -30,7 +30,7 @@ describe("Character", () => {
   expect(Merlin.lifePoints).toEqual(7);
   expect(Merlin.strength).toEqual(6);
   expect(Merlin.tough).toEqual(6);
-  expect(Merlin.mind).toEqual(16);
+  expect(Merlin.mind).toEqual(15);
   expect(Merlin.level).toEqual(2);
   });
 });
