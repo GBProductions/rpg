@@ -12,6 +12,11 @@ Game.prototype.assignId = function() {
   this.currentId +=1;
   return this.currentId;
 }
+
+Game.prototype.addPlayer = function(player) {
+  player.id = this.assignId();
+  this.players[player.id] = player;
+}
 // Game.prototype.addPlayer(){Character)
 //   this.
 // }

@@ -19,6 +19,11 @@ let game1
     expect(game1.currentId).toEqual(1);
   });
 
+  test('it should take a character as an argument, and save their stats into the player array. Will also assign each character an individule ID that increments by one each entry', () => {
+    game1.addPlayer("John")
+    expect(player).toEqual();
+  });
+
 
   // Expect(game1.assignId()).toEqual(return value = 1));
 
