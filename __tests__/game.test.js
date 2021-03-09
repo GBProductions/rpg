@@ -16,9 +16,11 @@ let game1
 
   test('it should assign an ID, and increment by 1 each time', () => {
     game1.assignId();
-    expect(game1.currentId).toEqual();
+    expect(game1.currentId).toEqual(1);
   });
 
+
+  // Expect(game1.assignId()).toEqual(return value = 1));
 
 
 
