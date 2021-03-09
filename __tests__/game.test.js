@@ -14,10 +14,10 @@ let game1
     expect(game1).toEqual({"currentId": 0, "currentPlayer": 1, "players": {}})
     });
 
-  // test('it should assign an ID, and increment by 1 each time', () => {
-  //   assignId(game1);
-  //   expect(game1).toEqual(x);
-  // });
+  test('it should assign an ID, and increment by 1 each time', () => {
+    game1.assignId();
+    expect(game1.currentId).toEqual();
+  });
 
 
 
