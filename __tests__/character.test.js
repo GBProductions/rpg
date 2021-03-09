@@ -2,6 +2,7 @@ import Character from '../src/js/character.js';
 
 describe("Character", () => {
   let Merlin;
+     
 
   beforeEach(() => {
     Merlin = new Character ("Merlin", "Wizard",2, 1, 1, 10);
