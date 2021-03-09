@@ -33,4 +33,32 @@ describe("Character", () => {
   expect(Merlin.mind).toEqual(15);
   expect(Merlin.level).toEqual(2);
   });
-});
+
+  test('It should add one to the wins stat', () => {
+    Merlin.winner();
+    expect(Merlin.wins).toEqual(1);
+  });
+})
+//   test("It should take level into account, and change stats based on level position.", () => {
+// //     //battle. Winner receives +1 wins
+// //     //player has a win, expAdder +1 to toughness
+// //     //when player has 3 wins, player levels up +1
+// //     //when level up, all stats add 5
+// //     Merlin.winner(3);
+// //     expect(Merlin.lifePoints).toEqual(7);
+// //     expect(Merlin.strength).toEqual(6);
+// //     expect(Merlin.tough).toEqual(9);
+// //     expect(Merlin.mind).toEqual(15);
+// //     expect(Merlin.level).toEqual(2);
+// //   });
+// // });
+
+// // if wins divided by 3 < 1 || undefined || NaN
+// // return no action 
+// // if wins divided by 3 => 1 
+// //   run levelUp on character
+// // if wins divided by 3 =>2 
+
+
+// // if 3 % wins = 0 
+// // wins \ 3 = 
