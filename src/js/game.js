@@ -1,3 +1,5 @@
+import Character from "./character";
+
 export default class Game {
   constructor () {
     this.players = {};
@@ -6,4 +8,10 @@ export default class Game {
   }
 }
 
-Game
+Game.prototype.assignId = function() {
+  this.currentId +=1;
+  return this.currentId;
+}
+// Game.prototype.addPlayer(){Character)
+//   this.
+// }

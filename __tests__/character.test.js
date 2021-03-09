@@ -40,6 +40,7 @@ describe("Character", () => {
     expect(Merlin.wins).toEqual(1);
   });
 })
+
 //   test("It should take level into account, and change stats based on level position.", () => {
 // //     //battle. Winner receives +1 wins
 // //     //player has a win, expAdder +1 to toughness
